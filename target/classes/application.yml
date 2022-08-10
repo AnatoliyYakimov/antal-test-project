@@ -1,0 +1,12 @@
+spring:
+  liquibase:
+    enabled: true
+    change-log: classpath:liquibase/dbchangelog.yml
+  data:
+    rest:
+      base-path: /api/v1
+      detection-strategy: annotated
+springdoc:
+  swagger-ui:
+    use-root-path: true
+
