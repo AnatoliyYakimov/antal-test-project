@@ -1,9 +1,0 @@
-databaseChangeLog:
-  - changeSet:
-      id: 01
-      author: Anatoliy Yakimov
-      comment: Created TEST_ENTITY table
-      changes:
-        - sqlFile:
-            path: sql/M-01.sql
-            relativeToChangelogFile: true
